@@ -1,0 +1,5 @@
+/*
+transform.Rotate(0,0,1); --> Rotates the car gameObject
+transform.Translate(0,1,0); --> Moves the car gameObject 
+
+note: serialized variables inspector panel overrides default script value
