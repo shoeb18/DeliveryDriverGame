@@ -13,3 +13,11 @@ Input.GetAxis("Vertical");-->
 S or Down Arrow: Returns values moving towards -1
 W or Up Arrow: Returns values moving towards 1
 No input: Smoothly returns to 0
+
+Time.deltaTime --> to make game frame rate independent in any system
+
+Colliders and Rigidbody
+Colliders use to detect collisions for gameObject
+Rigidbody adds physics behaviour to the gameObject
+ --> note to detect collisions between two gameObject both should have collider comp added
+ and atleast 1 gameObject need a Rigidbody component attached on it
