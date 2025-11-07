@@ -3,3 +3,13 @@ transform.Rotate(0,0,1); --> Rotates the car gameObject
 transform.Translate(0,1,0); --> Moves the car gameObject 
 
 note: serialized variables inspector panel overrides default script value
+
+Input.GetAxis("Horizontal");-->
+A or Left Arrow: Returns values moving towards -1
+D or Right Arrow: Returns values moving towards 1
+No input: Smoothly returns to 0
+
+Input.GetAxis("Vertical");-->
+S or Down Arrow: Returns values moving towards -1
+W or Up Arrow: Returns values moving towards 1
+No input: Smoothly returns to 0

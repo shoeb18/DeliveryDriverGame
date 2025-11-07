@@ -13,7 +13,12 @@ public class CarController : MonoBehaviour
 
     void Update()
     {
-        transform.Rotate(0, 0, rotateSpeed);
-        transform.Translate(0, moveSpeed,0);
+        // Input
+        float horizontalInput = Input.GetAxis("Horizontal") * rotateSpeed * Time.deltaTime;
+        float verticalInput = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+
+        // Movement
+        transform.Rotate(0, 0, -horizontalInput);
+        transform.Translate(0, verticalInput,0);
     }
 }
