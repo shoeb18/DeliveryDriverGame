@@ -21,3 +21,7 @@ Colliders use to detect collisions for gameObject
 Rigidbody adds physics behaviour to the gameObject
  --> note to detect collisions between two gameObject both should have collider comp added
  and atleast 1 gameObject need a Rigidbody component attached on it
+
+LateUpdate()
+ use LateUpdate for cameraFollow-->
+Camera might update before car's position is final, it will cause jittering
