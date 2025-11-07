@@ -25,3 +25,7 @@ Rigidbody adds physics behaviour to the gameObject
 LateUpdate()
  use LateUpdate for cameraFollow-->
 Camera might update before car's position is final, it will cause jittering
+
+use Tags to identify diff gameObjects
+Destroy(gameObject, delay) --> destroy's gameObject (delay is optional)
+GetComponent<type> --> to get component that is attached to a gameObject
